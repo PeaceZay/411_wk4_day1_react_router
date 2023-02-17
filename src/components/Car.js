@@ -8,7 +8,7 @@ import { Container, Chip, Paper } from '@mui/material';
 
 const Car = (props) => {
     let { id } = useParams();
-    const car = cars.find(c => c.id == id)
+    const car = cars.find(c => c.id === id)
 
     // const car = cars.find(e=>e['id']===parseInt(carId))
     // const keys = Object.keys(car)
