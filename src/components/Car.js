@@ -12,7 +12,7 @@ const Car = (props) => {
 
     // const car = cars.find(e=>e['id']===parseInt(carId))
     // const keys = Object.keys(car)
-    console.log(car, "HERE I AM")
+    console.log(car, "HERE I AM, to save the day")
 
 
     return (
